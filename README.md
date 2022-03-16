@@ -15,7 +15,7 @@ https://hub.docker.com/r/sraillard/aws-cli
 
 To run it in interactive mode:
 ```
-docker run --privileged --rm -it -e "AWS_DEFAULT_REGION=xxx" -e "AWS_ACCESS_KEY_ID=xxxx" -e "AWS_SECRET_ACCESS_KEY=xxxx" sraillard/aws-cli:1.18.49-alpine
+docker run --privileged --rm -it -e "AWS_DEFAULT_REGION=xxx" -e "AWS_ACCESS_KEY_ID=xxxx" -e "AWS_SECRET_ACCESS_KEY=xxxx" sraillard/aws-cli:1.22.73-alpine
 ```
 
 `--privileged` is needed for building docker images.
@@ -24,5 +24,5 @@ Building
 ========
 
 ```
-docker build -t sraillard/aws-cli:1.18.49-alpine .
+docker build -t sraillard/aws-cli:1.22.73-alpine .
 ```
